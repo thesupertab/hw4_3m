@@ -1,0 +1,21 @@
+<!-- res/layout/fragment_continent_list.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewContinent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Continents"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <ListView
+        android:id="@+id/listViewContinents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
